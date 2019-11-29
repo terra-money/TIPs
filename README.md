@@ -1,4 +1,4 @@
-# Terra Improvement Proposals
+# Terra Improvement Proposals (TIPs)
 
 Terra Improvement Proposals (TIPs) describe standards for the Terra platform, including core protocol specifications, client APIs, and contract standards.
 
