@@ -9,7 +9,7 @@ Status: Draft
 
 This TIP introduces a URI scheme for Terra payments, which aims to establish a standard format for encoding **payment request** details into a serial URI format that can be loaded by a variety of user-facing Terra wallet applications to simplify user experience.
 
-TIP21 draws inspiration from URI schemes for payments in well-established blockchain protocols, such as BIP21 and EIP67.
+TIP-42 draws inspiration from URI schemes for payments in well-established blockchain protocols, such as BIP21 and EIP67.
 
 NOTE: "Terra Payments," as employed in this document, refers specifically to a simple transaction which includes a `MsgSend`, conveying the properties of
 
