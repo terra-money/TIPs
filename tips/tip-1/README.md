@@ -37,7 +37,7 @@ Before you begin writing a formal TIP, you should vet your idea. Ask the Terra c
 
 ### TIP Process
 
-The TIP process begins with a new idea for Terra. It is highly recommended that a single TIP contain a single key proposal or new idea. Small enhancements or patches often don’t need a TIP and can be injected into the Terra development workflow with a pull request to the [Terra Core repo](https://github.com/terra-project/core). The more focused the TIP, the more successful it tends to be. If in doubt, split your TIP into several well-focused ones.
+The TIP process begins with a new idea for Terra. It is highly recommended that a single TIP contain a single key proposal or new idea. Small enhancements or patches often don’t need a TIP and can be injected into the Terra development workflow with a pull request to the [Terra Core repo](https://github.com/terra-money/core). The more focused the TIP, the more successful it tends to be. If in doubt, split your TIP into several well-focused ones.
 
 ![TIPs Flowchart](./diagram.png)
 
@@ -83,7 +83,7 @@ The TIP author is free to provide supplementary, auxiliary files inside the TIP'
 
 At the earliest convenience, the PR should be merged (regardless of whether it is accepted during discussion). Additional PRs may be made by the Author to update or expand the TIP, or by maintainers to set its status, discussion URL, etc.
 
-Standards Track TIPs consist of two parts, a design document and a reference implementation. It is generally recommended that at least a prototype implementation be co-developed with the TIP, as ideas that sound good in principle sometimes turn out to be impractical when subjected to the test of implementation. Often it makes sense for the prototype implementation to be made available as PR to the [Terra Core repo](https://github.com/terra-project/core) (making sure to appropriately mark the PR as a WIP).
+Standards Track TIPs consist of two parts, a design document and a reference implementation. It is generally recommended that at least a prototype implementation be co-developed with the TIP, as ideas that sound good in principle sometimes turn out to be impractical when subjected to the test of implementation. Often it makes sense for the prototype implementation to be made available as PR to the [Terra Core repo](https://github.com/terra-money/core) (making sure to appropriately mark the PR as a WIP).
 
 ### Preamble
 
