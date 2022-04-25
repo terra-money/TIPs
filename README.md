@@ -1,30 +1,50 @@
-![TIPS-banner](./img/TIPs_banner.png)
+![](./img/tips-banner.png)
 
-This repository houses the official working and finalized drafts for Terra Improvement Proposals (TIPs), which describe standards for the Terra platform, such as developments in the specification of the core protocol, application protocols, informational drafts, and contract standards.
+# Terra Improvement Proposals (TIPs)
 
-The [official TIPs site](https://tips.terra.money) is automatically generated from the contents of this repository.
+TIPs are a way to standardize proposed changes to the Terra core. Each TIP should be written using the templates found in this repo. The [TIP template](./tip-template) contains instructions on each section in the raw markdown. Read the [TIP example](./tip-example.md) to see how to write a good TIP. 
 
-# Contributing
+- [TIP markdown template](./tip-template.md)
+- [TIP example](./tip-example.md)
+- [TIP Github issue template](./.github/ISSUE_TEMPLATE/terra-improvement-proposal--tip-.md)
 
-1.  Review [TIP-1](./tips/tip-1/README.md).
-2.  Fork the repository by clicking "Fork" in the top right.
-3.  Add your TIP to your fork of the repository. There is a [template TIP here](./tips/tip-x/README.md).
-4.  Submit a Pull Request to Terra's [TIPs repository](https://github.com/terra-money/TIPs).
 
-Your first PR should be a first draft of the final TIP. It must meet the formatting criteria enforced by the build (largely, correct metadata in the header). An editor will manually review the first PR for a new TIP and assign it a number before merging it. Make sure you include a `Agora` header with the Terra Agora URL to a discussion forum or open GitHub issue where people can discuss the TIP as a whole.
+## Anatomy
 
-Each TIP has its own designated folder which is owned by the TIP's author. If your TIP requires images, you should put the image files directly in the TIP's folder, e.g. `tips/tip-xxxx/img/image.png`, and the image files should be referenced relatively from within `tips/tip-xxxx/README.md` as `.img/image.png`.
+TIPs are arranged in the following structure:
 
-When you believe your TIP is mature and ready to progress past the draft phase, you should do one of two things:
+```
+Title: TIP # 01 Your Title Here
+│ 
+├── General info: TIP #, Author, Network, Date
+├── Summary: A brief summary of the change in plain English. 
+├── Motivation: The problem; why the change needs to be made.
+│ 
+├── Tech Spec
+│   ├── Modules: A list of the affected modules. 
+│   ├── Overview: The solution; a technical overview of the change. 
+│   ├── Method: How the change will be implemented.
+│   ├── Code: Examples of the code involved. 
+│   └── Considerations: General considerations or cautions. 
+│ 
+├── Timeline: The timeframe needed to complete the change.
+└── Tests: A list of tests implemented or needed. 
+```
 
-- **For a Standards Track TIP**, ask to have your issue added to the agenda of Terra Core Developer meetings (https://github.com/terra-money/core/issues), where it can be discussed for inclusion in a future hard fork. If implementers agree to include it, the TIP editors will update the state of your TIP to `Accepted`.
+## Writing TIPs
 
-- **For all other TIPs**, open a PR changing the state of your TIP to `Final`. An editor will review your draft and ask if anyone objects to its being finalized. If the editor decides there is no rough consensus - for instance, because contributors point out significant issues with the TIP - they may close the PR and request that you fix the issues in the draft before trying again.
+A TIP should be clear and concise. 
 
-## Attribution
+After reviewing a TIP, a reader should have a clear idea of the following:
 
-The TIP format and repository structure was adapted from Ethereum Improvement Proposals.
+- What the change is (Summary and Overview).
+- Why the change needs to be made (Motivation).
+- How the change will be made (Method).
+- The technical details of the change (Tech Spec, Code, and Considerations).
+- What success looks like (Outcome).
+- Lead time and testing details (Timeline, Tests).
 
-## Copyright
+There is no set length for TIPs. Each TIP should clearly outline a necessary change. More complex TIPs will naturally be longer. Keep TIPs succinct while providing all pertinent info. 
 
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+Generally, shorter sentences are easier to write and read. Avoiding unnecessarily complex clauses will help clarify your writing. 
+
